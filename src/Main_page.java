@@ -2,7 +2,7 @@ import java.awt.EventQueue;
 
 import javax.swing.JFrame;
 
-public class Main_page {
+public class Main_Page {
 
 	private JFrame frame;
 
@@ -13,7 +13,7 @@ public class Main_page {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
-					Main_page window = new Main_page();
+					Main_Page window = new Main_Page();
 					window.frame.setVisible(true);
 				} catch (Exception e) {
 					e.printStackTrace();
@@ -25,7 +25,7 @@ public class Main_page {
 	/**
 	 * Create the application.
 	 */
-	public Main_page() {
+	public Main_Page() {
 		initialize();
 	}
 
